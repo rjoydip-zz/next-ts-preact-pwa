@@ -20,7 +20,7 @@ export default () => {
 
   return (
     <Layout>
-      <Title>Welcome to Next Typescript PWA!</Title>
+      <Title>Welcome to Next Preact Typescript PWA!</Title>
 
       <Paragraph>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

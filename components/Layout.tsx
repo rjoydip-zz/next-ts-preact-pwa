@@ -25,12 +25,15 @@ export const GlobalStyles = createGlobalStyle`
   `
 
 const ThemeChange = ({ themeType = 'light', toggleTheme = () => {} }) => (
-  <button
-    className="absolute right-0 m-2 focus:outline-none rounded-full inline-flex items-center"
-    onClick={toggleTheme}
-  >
-    {themeType === 'light' ? <FaMoon /> : <FaRegMoon />}
-  </button>
+  <div className="absolute right-0 m-2 rounded-full inline-flex items-center">
+    <button
+      aria-label="Dark mode"
+      className="focus:outline-none active:outline-none"
+      onClick={toggleTheme}
+    >
+      {themeType === 'light' ? <FaMoon /> : <FaRegMoon />}
+    </button>
+  </div>
 )
 
 const Footer = ({ href, text }: { href: string; text: string }) => (
