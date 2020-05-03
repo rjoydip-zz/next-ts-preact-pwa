@@ -2,7 +2,7 @@
   "name": "next-ts-preact-pwa",
   "version": "1.0.0",
   "license": "ISC",
-  "title": "Next Typescript PWA",
+  "title": "Next Preact Typescript PWA",
   "scripts": {
     "lint": "tsc",
     "dev": "next",
